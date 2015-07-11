@@ -1,6 +1,5 @@
-FROM golang:1.4-wheezy
+FROM golang:1.4
 
-# https://registry.hub.docker.com/u/google/nodejs/dockerfile/
 RUN apt-get update -y && \
   apt-get install -y curl git nodejs npm
 
